@@ -1,10 +1,34 @@
 .searchbar {
     text-align: center;
+    /* border-color: #aaaaaa;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    padding-left: 30px;
+    width: 370px;
+    background-image: url("./images/magnifying_glass.jpg"); 
+    background-position: 270px -10px;
+    background-repeat: no-repeat; */
+} 
+
+input[type=search] {
+    width: 295px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    /* background-color: #FBFBFB; */
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 16px;
+    background-image: url('//www.kirupa.com/images/search.png');
+    background-position: 270px 0px;
+    background-repeat: no-repeat;
 }
+
 
 .search-wrapper {
     position: relative;
-    
+
 }
 
 #left {
