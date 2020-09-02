@@ -7,53 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="header-left">
-        <ul>
-            <li><a href="#" alt="_blank">About</a></li>
-            <li><a href="#" target="_blank">Store</a></li>
-        </ul>        
+
+    <nav class="topnav">
+        <a href="#" alt="_blank">About</a>
+        <a href="#" target="_blank">Store</a>
+        <div class="topnav-right">
+            <a href="#" alt="_blank">Gmail</a>
+            <a href="#" alt="_blank">Images</a>
+            <a href="#" alt="_blank"><img src="./images/appicon.png" alt="appicon" id="appicon"></a>
+            <input type="button" value="Sign In" id="sign-button">
+        </div>
     </nav>
-
-    <nav class="header-right">
-        <ul>
-            <li><a href="#" alt="_blank">Gmail</a></li>
-            <li><a href="#" alt="_blank">Images</a></li>
-            <li><a href="#" alt="_blank"><img src="./images/appicon.png" alt="appicon" id="appicon"></a></li>
-            <li><input type="button" value="Sign In" id="sign-button"></li>
-        </ul>
-    </nav>
-
-    
-
-    <div class="searchbar">
+<br>
+    <div class="main-section">
         <img src="./images/googlelogo.png" alt="Google Logo">
-        <div class="search-wrapper">
-            <!-- <img id="left" src="./images/magnifying_glass.jpg" alt="magnify" width="15px" > -->
-            <!-- <input type="image" src="./images/magnifying_glass.jpg" alt="Search"> -->
+        <div class="search-box">
+            <img id="left" src="./images/magnifying_glass.jpg" alt="magnify" >
             <input type="search" name="search" id="searchbar">
-            <!-- <img id="right" src="./images/google_microphone.png" alt="microphone" width="10px" > -->
+            <a href="#""><img id="right" src="./images/google_microphone.png" alt="microphone" ></a>
         </div>
         <br>
         <br>
         <input type="button" value="Google Search" id="search-button">
-        <input type="button" value="I'm Feeling Lucky">
-        <p>Other Languages you can use Google: <a href="#" target="_blank" rel="noopener noreferrer">English</a></p>
+        <input type="button" value="I'm Feeling Lucky" id="lucky-button">
+        <p>Other Languages you can use Google: <a href="#" target="_blank" id="languge-button">English</a></p>
     </div>
 
-    <footer>
+    <nav class="navbar">
         <p>Turkey</p>
-        <hr>
-        <ul id="footer-left">
-            <li><a href="#" alt="_blank">Advertising</a></li>
-            <li><a href="#" alt="_blank">Business</a></li>
-            <li><a href="#" alt="_blank">How Search Works</a></li>
-        </ul>
-
-        <ul id="footer-right">
-            <li><a href="#" alt="_blank">Privacy</a></li>
-            <li><a href="#" alt="_blank">Terms</a></li>
-            <li><a href="#" alt="_blank">Settings</a></li>
-        </ul>
-    </footer>
+        <hr id="bottomnav-hr">
+        <a href="#" alt="_blank">Advertising</a>
+        <a href="#" alt="_blank">Business</a>
+        <a href="#" alt="_blank">How Search Works</a>
+        <div class="bottomnav-right">
+            <a href="#" alt="_blank">Privacy</a>
+            <a href="#" alt="_blank">Terms</a>
+            <a href="#" alt="_blank">Settings</a>
+        </div>
+    </nav>
 </body>
 </html>
