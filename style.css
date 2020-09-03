@@ -3,3 +3,158 @@
     padding: 0;
 } 
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  margin-top: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+  
+.topnav a:hover {
+  text-decoration: underline;
+ 
+}
+  
+.topnav-right {
+  margin-right: 10px;
+  float: right;
+}
+
+#appicon {
+  color: #ccc;
+  opacity: 0.5;
+  position: relative;
+  bottom: 5px;
+}
+
+#appicon:hover {
+  opacity: 1;
+}
+  
+#sign-button {
+  font-weight: bold;
+  background-color: #3388ff;
+  color: white;
+  margin-top: 10px;
+  width: 65px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.main-section {
+  margin-top: 240px;
+  text-align: center;
+}
+
+#searchbar {
+  margin-top: 20px;
+  height: 45px;
+  width: 500px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  padding-left: 40px;
+  font-size: 16px;
+}
+
+input[type="search"] { 
+  outline: none;
+}
+
+#searchbar:hover {
+  box-shadow: 5px 5px 11px rgba(33,33,33,.2); 
+}
+
+#left {
+  width: 30px; 
+  position: relative;
+  top: 10px;
+  left: 45px;
+}
+
+#right {
+  width: 13px; 
+  position: relative;
+  top: 3px;
+  right: 35px;
+}
+
+#search-button {
+  margin-top: 40px;
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  color: #666666;
+}
+
+#lucky-button {
+  margin-top: 40px;
+  margin-left: 10px;
+  width: 140px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  color: #666666;
+}
+
+#search-button:hover, #lucky-button:hover {
+  color: black;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(33,33,33,.2);
+  cursor: pointer;
+}
+
+.main-section p {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.navbar {
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #666666;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.bottomnav-right {
+  float: right;
+}
+  
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar p {
+  color: #666666;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+ 
+hr {
+    margin-left: 16px;
+    height: 1px;
+    border: none;
+    background-color: #ccc;
+}
