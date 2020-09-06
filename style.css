@@ -8,7 +8,8 @@ body {
 }
 
 .topnav {
-  margin-top: 5px;  
+  margin-top: 5px;
+  overflow: hidden;     
   background-color: white;    
   /* text-align: center;
   vertical-align: middle; */
